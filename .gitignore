@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+
+# environment files
+.env
+.env.test
+
+# logs
+*.log
+
+# coverage
+coverage
+
+# build outputs
+dist
+build
+
+# OS files
+.DS_Store
+Thumbs.db
