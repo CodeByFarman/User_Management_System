@@ -1,0 +1,28 @@
+const Modal = ({ open, title, onConfirm, onClose }) => {
+  if (!open) return null;
+
+  return (
+    <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
+      <div className="bg-white rounded p-6 w-full max-w-sm">
+        <h3 className="text-lg font-semibold mb-4">{title}</h3>
+
+        <div className="flex justify-end gap-3">
+          <button
+            onClick={onClose}
+            className="px-3 py-1 border rounded"
+          >
+            Cancel
+          </button>
+          <button
+            onClick={onConfirm}
+            className="px-3 py-1 bg-red-600 text-white rounded"
+          >
+            Confirm
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Modal;
