@@ -112,39 +112,61 @@ VITE_API_BASE_URL
 
 .env files are excluded from the repository using .gitignore.
 
-🚀 Deployment Instructions (Overview)
+🚀 Deployment Instructions
 
-Deployment is not required for local testing but can be done using the following platforms:
+The application was deployed using cloud platforms as follows:
 
-Backend
+🔹 Backend Deployment (Render)
 
-Render
+Platform: Render
+Type: Web Service
 
-Railway
+Steps Taken:
 
-Heroku
+Pushed backend code to a public GitHub repository.
 
-Vercel (API)
+Created a new Web Service on Render.
 
-Frontend
+Set Root Directory to backend.
 
-Vercel
+Configured build and start commands:
 
-Netlify
+Build Command: npm install
 
-Database
+Start Command: npm start
 
-MongoDB Atlas
+Added backend environment variables in Render dashboard.
 
-Deployment Steps:
+Allowed network access from anywhere (0.0.0.0/0) in MongoDB Atlas.
 
-Deploy backend and obtain public API URL
+Deployed the service and verified successful startup.
 
-Update VITE_API_BASE_URL in frontend environment variables
+Frontend Deployment (Vercel)
 
-Deploy frontend
+Platform: Vercel
+Framework: React (Vite)
 
-Configure environment variables on hosting platforms
+Steps Taken:
+
+Imported the GitHub repository into Vercel.
+
+Set Root Directory to frontend.
+
+Added frontend environment variable:
+
+VITE_API_BASE_URL pointing to the deployed backend API.
+
+Deployed the application.
+
+Verified frontend-backend communication.
+
+🔹 CORS Configuration
+
+During initial deployment, backend CORS was temporarily set to allow all origins.
+
+After frontend deployment, CORS was restricted to the Vercel frontend URL using the CLIENT_URL environment variable.
+
+Backend was redeployed to apply the updated CORS configuration.
 
 📘 API Documentation
 🔗 Base URL
