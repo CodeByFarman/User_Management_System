@@ -285,4 +285,15 @@ npm test
 - Backend API: https://user-management-system-backend-cx0l.onrender.com/
 - API Base URL: https://user-management-system-backend-cx0l.onrender.com/api
 
+
+### 📄 Environment Variable Templates
+
+Sample environment variable files are provided for reference:
+
+- `backend/.env.example`
+- `frontend/.env.example`
+
+Copy these files and rename them to `.env` before running the application locally.
+
+
 ---
