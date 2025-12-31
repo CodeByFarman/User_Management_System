@@ -263,9 +263,9 @@ Request:
 
 📦 Postman Collection
 
-A Postman collection containing all API endpoints can be used for testing.
+Postman collection for all backend APIs is included in the repository:
 
-(Add your exported Postman collection link here)
+- `User_Management_API.postman_collection.json`
 
 🧪 Testing
 
