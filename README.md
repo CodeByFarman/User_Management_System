@@ -259,8 +259,8 @@ npm test
 
 ## 🔗 Live Deployment Links
 
-- Frontend: https://your-app.vercel.app
+- Frontend: https://user-management-system-five-iota.vercel.app/
 - Backend API: https://user-management-system-backend-cx0l.onrender.com/
-- API Base URL: https://your-api.onrender.com/api
+- API Base URL: https://user-management-system-backend-cx0l.onrender.com/api
 
 ---
