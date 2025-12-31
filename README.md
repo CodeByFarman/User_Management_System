@@ -296,4 +296,11 @@ Sample environment variable files are provided for reference:
 Copy these files and rename them to `.env` before running the application locally.
 
 
+## 🎥 Project Walkthrough Video
+
+A narrated walkthrough demonstrating authentication, role-based access, user management, backend APIs, and live deployment:
+
+- Video Link: https://drive.google.com/file/d/1Oj4mW95FbwFhnyjV6PtKKtHlF_PSu92z/view?usp=drivesdk
+
+
 ---
